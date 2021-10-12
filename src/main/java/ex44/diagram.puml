@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface parseData
+
+parseData <|-- userInput
+compareInput <|-- parseData
+
+printData <|-- compareInput
+userInput <|- compareInput
+
+
+enum InputContent {
+Product
+}
+
+@enduml

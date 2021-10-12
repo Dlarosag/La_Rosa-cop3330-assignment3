@@ -1,0 +1,3 @@
+In order to build this program, The approach I will take is:
+first I will read the file and I will add each line to a list so I can manage the names with much more ease.
+After I have all the names in my list I will use a loop to find the smallest alphabetical letter, obtain and use its value, and finally delete it so I can move into the next one.

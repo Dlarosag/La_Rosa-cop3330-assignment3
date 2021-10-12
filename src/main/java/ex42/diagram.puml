@@ -1,0 +1,32 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+abstract  input
+abstract FirstName
+abstract LastName
+abstract Salary
+interface table
+
+readFile <|-- input
+MainList <|-- readFile
+FirstName <|-- MainList
+LastName <|-- MainList
+Salary <|-- MainList
+
+table <|--FirstName
+table <|--LastName
+table <|--Salary
+
+print <|--table
+
+class readFile {
+file
+}
+
+enum InputContent {
+FirstName
+LastName
+Salary
+}
+
+@enduml

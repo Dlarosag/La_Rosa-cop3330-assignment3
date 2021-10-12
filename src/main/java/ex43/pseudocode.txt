@@ -1,0 +1,2 @@
+My knowledge of htlm is not enought as it is, so I will have to look for some information on it.
+Other than the htlm file is simply obtaining the user input and creating the apropiate file for each.

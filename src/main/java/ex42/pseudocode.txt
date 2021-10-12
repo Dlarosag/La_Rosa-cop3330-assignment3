@@ -1,0 +1,3 @@
+Because the input of this program is all clustered into a single line per item, if I were capable of obtaining the line and separated in separated list I would have control over all the desired variables.
+I will create list for each data type and I will have them sorted by index of the list so that the data of item i will be contained in the index i of the separate list.
+Once I have all the data organized, it will be easy to generate the desired output using loops.

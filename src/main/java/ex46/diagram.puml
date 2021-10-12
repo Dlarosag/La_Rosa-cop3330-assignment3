@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+readLine <|-- readFile
+getWord <|- readLine
+wordCount <|-- getWord
+readLine <|-- wordCount
+
+sortCount <|-- readLine
+
+print <|-- sortCount
+
+
+
+enum InputContent {
+word
+}
+
+@enduml

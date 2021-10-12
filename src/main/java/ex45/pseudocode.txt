@@ -1,0 +1,3 @@
+This program will be fairly simple.
+I will read the input file, and then I will ask the user for the input.
+Once I have that, I'll just have to create the output file and print onto it the input file along with the mehtod .replace, so that for any input the word utilize will be replaced.

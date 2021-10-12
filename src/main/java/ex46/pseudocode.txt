@@ -1,0 +1,4 @@
+The approach I will take is: 
+I will work with two list: one that will save one instance of the word, and another list that will store an integer which translates into the number of apparitions of that word.
+I will set it up so that the index of both lists matches so I can make the ouput simplier.
+For making the output be in order I am thinking of using the same method as in a previous exercise: use a loop that will take and delete the highest item. 
